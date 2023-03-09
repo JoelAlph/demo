@@ -4,9 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    
     <title>hello</title>
 </head>
 <body>
+    
+    <div>
+        <h1>Form</h1>
+    </div>
+    <div>
+        <form action="submit-form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            
+            <label for="class">Class:</label>
+                <select name="class" id="class">
+                <option value="SE1">SE1</option>
+                <option value="SE2">SE2</option>
+                <option value="SE3">SE3</option>
+                <option value="SE4">SE4</option>
+                <option value="SE5">SE5</option>
+                <option value="SE6">SE6</option>
+                <option value="SE7">SE7</option>
+                <option value="SE8">SE8</option>
+                <option value="SE9">SE9</option>
+                <option value="SE10">SE10</option>
+                <option value="SE11">SE11</option>
+                </select><br>
+
+
+            <label for="division">Division:</label>
+            <input type="text" id="division" name="division" required><br>
+
+            <label for="mobile">Mobile No:</label>
+            <input type="tel" id="mobile" name="mobile" required><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
     
 </body>
 </html>
